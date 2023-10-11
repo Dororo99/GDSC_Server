@@ -1,0 +1,21 @@
+2023-10-02 03:41:50.250 [info] 
+
+
+
+
+2023-10-02 03:41:50.280 [info] Extension host agent started.
+2023-10-02 03:41:50.413 [info] [127.0.0.1][9fe1bee8][ManagementConnection] New connection established.
+2023-10-02 03:41:50.416 [info] [127.0.0.1][0dcdd378][ExtensionHostConnection] New connection established.
+2023-10-02 03:41:50.646 [info] [127.0.0.1][0dcdd378][ExtensionHostConnection] <1432> Launched Extension Host Process.
+2023-10-02 03:45:13.809 [info] [127.0.0.1][9fe1bee8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-10-02 03:45:13.814 [error] Error: Throttler is disposed
+    at c.queue (/home/ubuntu/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/ubuntu/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/ubuntu/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-10-02 03:45:18.829 [info] [127.0.0.1][0dcdd378][ExtensionHostConnection] <1432> Extension Host Process exited with code: 0, signal: null.
+2023-10-02 03:45:18.830 [info] Cancelling previous shutdown timeout
+2023-10-02 03:45:18.830 [info] Last EH closed, waiting before shutting down
+2023-10-02 03:50:18.831 [info] Last EH closed, shutting down
